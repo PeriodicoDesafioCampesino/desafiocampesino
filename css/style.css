@@ -1,0 +1,29 @@
+
+
+#derechos {
+
+border: solid 1px #000;
+border-color:red;
+
+}
+#margenes {
+	margin-left: 10px;
+}
+
+#cuadros{
+	border: solid 1px #000;
+	margin: 20px;
+}
+#cuadro1{
+min-width:300px;
+}
+#img{
+	width: 23vw;
+	min-width:300px;
+}
+
+#periodico{
+	width:90%;  
+      height:100vw;
+	  border:none;	
+}
