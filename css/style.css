@@ -1,13 +1,37 @@
 
+#barra{
+	
+	
+background-image: url(img/encabezado.jpg);
+
+background-position: top;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: inherit;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+}
 
 #derechos {
 
-border: solid 1px #000;
+border: solid 2px #000;
 border-color:red;
 
 }
 #margenes {
-	margin-left: 10px;
+	margin:10px;
 }
 
 #cuadros{
@@ -16,6 +40,9 @@ border-color:red;
 }
 #cuadro1{
 min-width:300px;
+}
+#cuadro2{
+min-width:400px;
 }
 #img{
 	width: 23vw;
@@ -27,3 +54,5 @@ min-width:300px;
       height:100vw;
 	  border:none;	
 }
+
+
