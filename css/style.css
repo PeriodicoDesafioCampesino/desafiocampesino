@@ -34,7 +34,7 @@ border-color:red;
 
 border: solid 2px #000;
 border-color:black;
-
+min-width:300px;
 }
 #margenes {
 	margin:10px;
