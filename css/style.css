@@ -30,6 +30,12 @@ border: solid 2px #000;
 border-color:red;
 
 }
+#contenido {
+
+border: solid 2px #000;
+border-color:black;
+
+}
 #margenes {
 	margin:10px;
 }
@@ -38,15 +44,70 @@ border-color:red;
 	border: solid 1px #000;
 	margin: 20px;
 }
+
+#cuadrotitulo{
+	border: solid 1px #000;
+  border-color:green;
+  margin:2px;
+}
+
+#titulos-internos{
+	border: solid 1px #000;
+	margin:5px;
+}
+
+#titulo-noticia-principal{
+	
+}
+
 #cuadro1{
 min-width:300px;
 }
 #cuadro2{
 min-width:300px;
 }
+
+
 #img{
 	width: 23vw;
 	min-width:300px;
+}
+#imgedit{
+	width: 30vw;
+	min-width:300px;
+}
+#imgprincipal{
+	width: 33vw;
+	min-width:300px;
+	margin-top:20px;
+	
+}
+
+#imgsecu{
+	width: 40vw;
+	min-width:300px;
+	
+}
+
+#imgact{
+	width: 40vw;
+	min-width:300px;
+	margin-left:1vw;
+}
+#img2{
+	width: 40vw;
+	min-width:300px;
+}
+#imgcgt{
+	width: 25vw;
+	min-width:300px;
+
+}
+
+#imgpublicidad{
+	width: 80vw;
+	min-width:300px;
+
 }
 
 #periodico{
@@ -54,5 +115,14 @@ min-width:300px;
       height:100vw;
 	  border:none;	
 }
+.piedefoto {
+	margin-top:0em;
+	font-size:1vw;
+	text-align:right;
+	margin-right:4vw;
+}
 
+.textoprin {
+	margin-right:2vw;
+}
 
