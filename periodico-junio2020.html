@@ -20,33 +20,81 @@
 	
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	
-	
-  
-	</head>
-	
-	<body class="white" >
-	
-	
-	<nav class="nav-extended #388e3c green darken-2" id="barra" style="background-image: url('img/encabezado.jpg'); "> 
+	   	
+	  <div class="navbar-fixed" >
+  	
+	<nav class="#388e3c green darken-2" id="barra" style="background-image: url('img/encabezado.jpg'); "> 
 		
 		
     <div class="nav-wrapper">
 	 
-      <a href="https://www.periodicodesafiocampesino.com.co" class="brand-logo"> &nbsp DESAFIO CAMPESINO </a>
+      <a href="https://www.periodicodesafiocampesino.com.co" class="brand-logo" > &nbsp PERIÓDICO DESAFIO CAMPESINO </a>
 	  
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 	  
       <ul class="right hide-on-med-and-down">
-        <li ><a href="index.html">Portada</a></li>
-        <li class="active"><a href="periodico-junio2020.html">Periódico Junio 2020</a></li>
+        <li><a href="index.html">Portada</a></li>
+        <li ><a href="periodico-octubre2020.html">Octubre-Noviembre 2020</a></li>
 		
+        <li>
+		 <a class="dropdown-trigger" href="#" data-target="secc">Secciones<i class="material-icons right">arrow_drop_down</i></a>
+		 </li>
+
+      
+		<li class="active">
+		 <a class="dropdown-trigger" href="#" data-target="id_dropfis">Ediciones digitales<i class="material-icons right">arrow_drop_down</i></a>
+		 </li>
 		
          <li>
 		 <a class="dropdown-trigger" href="#" data-target="id_drop">Ediciones fisicas<i class="material-icons right">arrow_drop_down</i></a>
 		 </li>
       </ul>
+
+       <ul id="secc" class="dropdown-content green darken-3">
+	  <li><a class="white-text" href="secciones/editoriales.html">Editoriales</a></li>
+	   <li class="divider"></li>
+	  <li><a class="white-text" href="secciones/derechos-humanos.html">Derechos humanos</a></li>
+	   <li class="divider"></li>
+	  <li><a class="white-text" href="secciones/noticias-cgt.html">CGT-ACC</a></li>
+	   <li class="divider"></li>
+	  <li ><a class="white-text" href="secciones/noticias-gobernacion.html">Noticias Gobernación</a></li>
+	  <li class="divider"></li>
+	  <li ><a class="white-text" href="secciones/actualidad.html">Actualidad</a></li>
+      <li class="divider"></li>
+	  <li ><a class="white-text" href="secciones/mujeres.html">Mujeres</a></li>
+      <li class="divider"></li>
+	  <li><a class="white-text" href="secciones/jovenes.html">Jovenes</a></li>
+      <li class="divider"></li>
+      <li><a class="white-text" href="secciones/cultura.html">Cultura</a></li>
+      <li class="divider"></li>
+      
+	  </ul>
+
+	  <ul id="secc2" class="dropdown-content green darken-3">
+	  <li><a class="white-text" href="secciones/editoriales.html">Editoriales</a></li>
+	   <li class="divider"></li>
+	  <li><a class="white-text" href="secciones/derechos-humanos.html">Derechos humanos</a></li>
+	   <li class="divider"></li>
+	  <li><a class="white-text" href="secciones/noticias-cgt.html">CGT-ACC</a></li>
+	   <li class="divider"></li>
+	  <li ><a class="white-text" href="secciones/noticias-gobernacion.html">Noticias Gobernación</a></li>
+	  <li class="divider"></li>
+	  <li ><a class="white-text" href="secciones/actualidad.html">Actualidad</a></li>
+      <li class="divider"></li>
+	  <li ><a class="white-text" href="secciones/mujeres.html">Mujeres</a></li>
+      <li class="divider"></li>
+	  <li><a class="white-text" href="secciones/jovenes.html">Jovenes</a></li>
+      <li class="divider"></li>
+      <li><a class="white-text" href="secciones/cultura.html">Cultura</a></li>
+      <li class="divider"></li>
+      
+	  </ul>
 	  
 	  <ul id="id_drop" class="dropdown-content green darken-3">
+	 	<li><a class="white-text" href="periodico-octubre2020-fisico.html">Octubre-Noviembre 2020</a></li>
+	   <li class="divider"></li>
+	  <li><a class="white-text" href="periodico-agosto2020-fisico.html">Agosto 2020</a></li>
+	   <li class="divider"></li>
 	  <li><a class="white-text" href="periodico-junio2020-fisico.html">Junio 2020</a></li>
 	   <li class="divider"></li>
 	  <li><a class="white-text" href="periodico-noviembre.html">Noviembre 2019</a></li>
@@ -63,6 +111,10 @@
 	  </ul>
     
 	 <ul id="id_drop2" class="dropdown-content green darken-3">
+	 	<li><a class="white-text" href="periodico-octubre2020-fisico.html">Octubre-Noviembre 2020</a></li>
+	   <li class="divider"></li>
+	 	<li><a class="white-text" href="periodico-agosto2020-fisico.html">Agosto 2020</a></li>
+	   <li class="divider"></li>
 	 <li><a class="white-text" href="periodico-junio2020-fisico.html">Junio 2020</a></li>
 	   <li class="divider"></li>
 	 <li><a class="white-text" href="periodico-noviembre.html">Noviembre 2019</a></li>
@@ -77,23 +129,59 @@
       <li class="divider"></li>
       
 	  </ul>
-	  
-  <ul class="sidenav green darken-3 " id="mobile-demo">
-    <li class="active"><a class="white-text" href="index.html">Portada</a></li>
+
+	  <ul id="id_dropfis" class="dropdown-content green darken-3">
+	 <li><a class="white-text" href="periodico-octubre2020.html">Octubre-Noviembre 2020</a></li>
+	   <li class="divider"></li>	
+	  <li><a class="white-text" href="periodico-agosto2020.html">Agosto 2020</a></li>
+      <li class="divider"></li>
+	 <li class="active"><a class="white-text" href="periodico-junio2020.html">Junio 2020</a></li>
+	   <li class="divider"></li>
+
+      
+	  </ul>
+    
+	 <ul id="id_dropfis2" class="dropdown-content green darken-3">
+	 <li><a class="white-text" href="periodico-octubre2020.html">Octubre-Noviembre 2020</a></li>
+	   <li class="divider"></li>	
+	 	<li><a class="white-text" href="periodico-agosto2020.html">Agosto 2020</a></li>
+      <li class="divider"></li>
+	 <li class="active"><a class="white-text" href="periodico-junio2020.html">Junio 2020</a></li>
+	   <li class="divider"></li>
+ 
+      
+	  </ul>
+ 
+  </div>
+  
+
+    </nav> </div>
+
+
+<div>
+	 <ul class="sidenav green darken-3" id="mobile-demo">
+    <li ><a class="white-text" href="index.html">Portada</a></li>
 	 <li class="divider"></li>
-    <li><a class="white-text" href="periodico-junio2020.html">Periódico Junio 2020</a></li>
+    <li><a class="white-text" href="periodico-octubre2020.html"> Octubre-Noviembre 2020</a></li>
 	 <li class="divider"></li>
+	<li>
+		 <a class="dropdown-trigger white-text" href="#" data-target="secc2">Secciones<i class="material-icons right white-text">arrow_drop_down</i></a>
+		 </li>
+
+	<li class="active">
+		 <a class="dropdown-trigger white-text" href="#" data-target="id_dropfis2">Ediciones digitales<i class="material-icons right white-text">arrow_drop_down</i></a>
+		 </li>
+
     <li><a class="dropdown-trigger white-text" href="#" data-target="id_drop2"> Ediciones fisicas  <i class="material-icons right white-text"> arrow_drop_down </i> </a> </li>
 	  
   </ul>
-  </div>
+</div>
   
-  <div class="nav-content">
-      <br>
-	  <span></span>
-      
-    </div>
-    </nav>
+
+	</head>
+	
+	<body class="white" >
+	
 	
 	<div class="section no-pad-bot green darken-2">
 	<div class="container">
@@ -826,7 +914,25 @@ Internacional
 	
 	</footer>
 	<!--script-->
-	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+     
+     $(document).ready(function(){
+          
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>300){
+              $('nav').css("opacity", "50%");
+            }else{
+              $('nav').css("opacity", "100%");
+            }
+
+          });
+
+     });
+ // class="#388e3c green darken-2" id="barra" style="background-image: url('img/encabezado.jpg'); "
+  </script>
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script> 
